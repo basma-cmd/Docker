@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascii Art Web</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.freepik.com/512/9207/9207483.png" type="image/png">
+    <link rel="stylesheet" href="statics/style.css">
+</head>
+
+<body>
+    <div>
+        <form method="POST" action="/ascii-art">
+             <h1> ASCII-ART-WEB-STYLIZE</h1>
+            <textarea class="typing" style="resize: none;" type="text" name="input" placeholder="Enter Your Texts" maxlength="200" required></textarea>
+            <div class="error">{{.Error}}</div>
+            <div class="banners">
+                <p>FILTERS: </p>
+                <input type="radio" id="standard" name="banner" value="standard" checked>
+                <label for="standard">STANDARD</label>
+
+                <input type="radio" id="shadow" name="banner" value="shadow">
+                <label for="shadow">SHADOW</label>
+
+                <input type="radio" id="thinkertoy" name="banner" value="thinkertoy">
+                <label for="thinkertoy">THINKERTOY</label>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+        <br><br>
+       
+    </div>
+</body>
+
+</html>
