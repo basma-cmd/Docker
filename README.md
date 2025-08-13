@@ -11,6 +11,7 @@ For example:
 This is one of Docker’s main advantages it lets you package an application with its dependencies into an image and run it anywhere, without worrying about OS differences, and without the heavy setup of a virtual machine.
 
 // small explication for vituelle machine: 
+
 Software de la VM (ex: VirtualBox) → Hypervisor → Kernel de l’OS hôte → Hardware réel
 
 Et à l’intérieur de la VM :
