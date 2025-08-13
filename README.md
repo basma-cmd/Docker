@@ -9,3 +9,12 @@ For example:
     Later, they need to work on it from a Windows machine without reinstalling or changing the environment.
     In this situation, they can create a Docker image that contains the exact Linux environment and Go version they need. That image can then be run in a container on the Windows machine, working exactly the same way as on Linux.
 This is one of Docker’s main advantages it lets you package an application with its dependencies into an image and run it anywhere, without worrying about OS differences, and without the heavy setup of a virtual machine.
+// small explication for vituelle machine: 
+Software de la VM (ex: VirtualBox) → Hypervisor → Kernel de l’OS hôte → Hardware réel
+
+Et à l’intérieur de la VM :
+
+Software invité → Kernel invité (de la VM) → Matériel virtuel → Hypervisor → Kernel hôte → Hardware réel
+
+// but the docker :
+Docker = juste ce dont ton programme a besoin → léger et rapide.
