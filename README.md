@@ -1,3 +1,9 @@
+Dockerfile → file that defines how to build the image, including project setup and dependencies.
+
+Image → contains the project, its environment, and all dependencies needed.
+
+Container → a running instance of the image.
+
 What is Docker?
 Docker is a lighter and simpler alternative to a virtual machine.
 Why? Because Docker uses the same operating system and the same kernel as the host device, unlike a virtual machine, which runs its own separate operating system with its own kernel.
